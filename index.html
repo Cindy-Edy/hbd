@@ -10,10 +10,11 @@
 </head>
 
 <body>
-  <!-- Video element with audio only (hidden) -->
-    <video id="background-video" src="hbd.mpeg" autoplay loop style="display:none;">
-        Your browser does not support the video element.
-    </video>
+  <audio class="song" loop autoplay>
+        <source src="hbd.mpeg">
+        </source>
+        Your browser isn't invited for super fun audio time.
+  </audio>
 
   <div class='moon'>
   <div class='crater1'></div>
@@ -97,11 +98,8 @@
   <script src='js/confetti.js'></script>
   <script  src="js/index.js"></script>
   <script src="js/countdown.js"></script>
-  <script>
-        // Optional: Control volume
-        const video = document.getElementById('background-video');
-        video.volume = 0.5; // Set volume (0.0 to 1.0)
-    </script>
+  
+</script>
   
 </body>
 </html>
