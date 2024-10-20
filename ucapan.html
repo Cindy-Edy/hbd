@@ -60,6 +60,11 @@
    </style>
 </head>
 <body>
+   <!-- Video element with audio only (hidden) -->
+    <video id="background-video" src="hbd.mpeg" autoplay loop style="display:none;">
+        Your browser does not support the video element.
+    </video>
+   
    <h1>Selamat Ulang Tahun Cindy!</h1>
 
    <canvas></canvas>
@@ -221,6 +226,10 @@
 
       init();
       draw();
+      
+        // Optional: Control volume
+        const video = document.getElementById('background-video');
+        video.volume = 0.5; // Set volume (0.0 to 1.0)
    </script>
 </body>
 </html>
