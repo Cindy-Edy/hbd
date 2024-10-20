@@ -10,6 +10,10 @@
 </head>
 
 <body>
+  <!-- Audio element -->
+    <audio id="background-music" src="music.mp3" autoplay loop>
+        Your browser does not support the audio element.
+    </audio>
 
   <div class='moon'>
   <div class='crater1'></div>
@@ -89,7 +93,11 @@
 <!--<iframe width="255" height="155" src="https://www.youtube.com/embed/KDxJlW6cxRk?controls=0&loop=1" frameborder="0" allowfullscreen></iframe>-->
 <!-- </div> -->
 
-  
+  <script>
+        // Optional: Control volume or other audio properties
+        const music = document.getElementById('background-music');
+        music.volume = 0.5; // Set volume (0.0 to 1.0)
+  </script>
   <script src='js/confetti.js'></script>
   <script  src="js/index.js"></script>
   <script src="js/countdown.js"></script>
