@@ -2,7 +2,7 @@
 For your Love
 
 
-Demo lihat sini 👉 : [https://himangmyid.github.io/]
+Demo lihat sini 👉 :
 (https://cindy-edy.github.io/hbd/Cindy3)
 
 
