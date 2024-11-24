@@ -20,7 +20,7 @@ nama yang ulang tahun. contoh:
 
 `https://cindy-edy.github.io/hbd/?name=Jhon Doe`
 
-`https://cindy-edy.github.io/hbd/?name=["yahya","anwar"]`
+`https://cindy-edy.github.io/hbd/?name=["Edy","Cindy"]`
 
 
 **date** (opsional)
